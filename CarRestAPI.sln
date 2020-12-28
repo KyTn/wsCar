@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRestAPI.Entities", "CarRestAPI.Entities\CarRestAPI.Entities.csproj", "{E659BBEC-06A9-430E-BBE8-54E923E6CD3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRestAPI.DataAccess", "CarRestAPI.DataAccess\CarRestAPI.DataAccess.csproj", "{15354534-EBDA-48EE-B7E9-4F962181CCEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRestAPI.Business", "CarRestAPI.Business\CarRestAPI.Business.csproj", "{F28C5DD2-A4D7-45A0-B205-E88BB8CA6A38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRestAPI.Core", "CarRestAPI.Core\CarRestAPI.Core.csproj", "{536371CB-6EEF-41D1-8B50-2C2FB0A64F8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRestAPI.WebAPI", "CarRestAPI.WebAPI\CarRestAPI.WebAPI.csproj", "{62A954B8-70A9-4A8A-9ADF-7CC934A57CDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E659BBEC-06A9-430E-BBE8-54E923E6CD3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E659BBEC-06A9-430E-BBE8-54E923E6CD3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E659BBEC-06A9-430E-BBE8-54E923E6CD3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E659BBEC-06A9-430E-BBE8-54E923E6CD3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15354534-EBDA-48EE-B7E9-4F962181CCEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15354534-EBDA-48EE-B7E9-4F962181CCEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15354534-EBDA-48EE-B7E9-4F962181CCEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15354534-EBDA-48EE-B7E9-4F962181CCEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F28C5DD2-A4D7-45A0-B205-E88BB8CA6A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F28C5DD2-A4D7-45A0-B205-E88BB8CA6A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F28C5DD2-A4D7-45A0-B205-E88BB8CA6A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F28C5DD2-A4D7-45A0-B205-E88BB8CA6A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{536371CB-6EEF-41D1-8B50-2C2FB0A64F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{536371CB-6EEF-41D1-8B50-2C2FB0A64F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{536371CB-6EEF-41D1-8B50-2C2FB0A64F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{536371CB-6EEF-41D1-8B50-2C2FB0A64F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A954B8-70A9-4A8A-9ADF-7CC934A57CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A954B8-70A9-4A8A-9ADF-7CC934A57CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A954B8-70A9-4A8A-9ADF-7CC934A57CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A954B8-70A9-4A8A-9ADF-7CC934A57CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65F03057-5A76-42CC-83FC-8078EAE0875C}
+	EndGlobalSection
+EndGlobal
