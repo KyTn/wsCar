@@ -6,7 +6,6 @@ using CarRestAPI.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace CarRestAPI.Business.Concrete
 {
@@ -18,7 +17,11 @@ namespace CarRestAPI.Business.Concrete
         {
             _carDal = carDal;
         }
-
+        /// <summary>
+        /// this is a method blabla lba
+        /// </summary>
+        /// <param name="car"></param>
+        /// <returns></returns>
         public IResult Add(Car car)
         {
             try

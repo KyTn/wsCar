@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CarRestAPI.Core.Utilities
+﻿namespace CarRestAPI.Core.Utilities
 {
     public class GeneralMessages
     {

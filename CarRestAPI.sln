@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRestAPI.Entities", "CarRestAPI.Entities\CarRestAPI.Entities.csproj", "{E659BBEC-06A9-430E-BBE8-54E923E6CD3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRestAPI.Entities", "CarRestAPI.Entities\CarRestAPI.Entities.csproj", "{E659BBEC-06A9-430E-BBE8-54E923E6CD3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRestAPI.DataAccess", "CarRestAPI.DataAccess\CarRestAPI.DataAccess.csproj", "{15354534-EBDA-48EE-B7E9-4F962181CCEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRestAPI.DataAccess", "CarRestAPI.DataAccess\CarRestAPI.DataAccess.csproj", "{15354534-EBDA-48EE-B7E9-4F962181CCEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRestAPI.Business", "CarRestAPI.Business\CarRestAPI.Business.csproj", "{F28C5DD2-A4D7-45A0-B205-E88BB8CA6A38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRestAPI.Business", "CarRestAPI.Business\CarRestAPI.Business.csproj", "{F28C5DD2-A4D7-45A0-B205-E88BB8CA6A38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRestAPI.Core", "CarRestAPI.Core\CarRestAPI.Core.csproj", "{536371CB-6EEF-41D1-8B50-2C2FB0A64F8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRestAPI.Core", "CarRestAPI.Core\CarRestAPI.Core.csproj", "{536371CB-6EEF-41D1-8B50-2C2FB0A64F8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRestAPI.WebAPI", "CarRestAPI.WebAPI\CarRestAPI.WebAPI.csproj", "{62A954B8-70A9-4A8A-9ADF-7CC934A57CDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRestAPI.WebAPI", "CarRestAPI.WebAPI\CarRestAPI.WebAPI.csproj", "{62A954B8-70A9-4A8A-9ADF-7CC934A57CDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRestAPI.Versioning", "Versioning\CarRestAPI.Versioning.csproj", "{3EC4BD50-676A-4E97-A750-72FDF67808B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{62A954B8-70A9-4A8A-9ADF-7CC934A57CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62A954B8-70A9-4A8A-9ADF-7CC934A57CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62A954B8-70A9-4A8A-9ADF-7CC934A57CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC4BD50-676A-4E97-A750-72FDF67808B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC4BD50-676A-4E97-A750-72FDF67808B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC4BD50-676A-4E97-A750-72FDF67808B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC4BD50-676A-4E97-A750-72FDF67808B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

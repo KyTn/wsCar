@@ -1,8 +1,6 @@
 ﻿using CarRestAPI.Core.Utilities.Results;
 using CarRestAPI.Entities.Concrete;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace CarRestAPI.Business.Abstract
 {
